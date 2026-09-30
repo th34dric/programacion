@@ -6,21 +6,15 @@ public class Ejercicio1 {
 
         System.out.println("Introduce dos numeros");
 
-        int num1 = sc.nextInt();
-        int num2 = sc.nextInt();
-        double num3 = Double.parseDouble(sc.nextLine()); //lee una cadena de caracteres y lo pasa a double solo
+        //int num1 = sc.nextInt();
+        //int num2 = sc.nextInt();
 
-        int suma, resta, multi;
-        double division;
+        double num1 = Double.parseDouble(sc.nextLine());
+        double num2 = Double.parseDouble(sc.nextLine());
 
-        suma = num1 + num2;
-        resta = num1 - num2;
-        multi = num1 * num2;
-        division = (double)num1 / (double)num2;
-
-        System.out.println("La suma es " + suma);
-        System.out.println("La resta es " + resta);
-        System.out.println("La multiplicacion es " + multi);
-        System.out.println("La division es " + division);
+        System.out.println("La suma es " + (num1 + num2));
+        System.out.println("La resta es " + (num1 - num2));
+        System.out.println("La multiplicacion es " + (num1 * num2));
+        System.out.println("La division es " + (num1 / num2));
     }
 }
