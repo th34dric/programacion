@@ -8,7 +8,15 @@ public class Ejercicio4 {
 
         int edad = sc.nextInt();
 
-        
+        if (edad <= 12) {
+            System.out.println("Es un niño");
+        } else if (edad <= 17) {
+            System.out.println("Es un adolescente");
+        } else if (edad <= 29) {
+            System.out.println("Es un joven");
+        } else {
+            System.out.println("Es un adulto");
+        }
 
     }
 }
