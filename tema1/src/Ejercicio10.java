@@ -12,14 +12,16 @@ public class Ejercicio10 {
 
         switch (caracter){
             case '+':
-                System.out.println("La suma es " + num1+num2);
+                System.out.println("La suma es " + (num1+num2));
                 break;
             case '-':
-                System.out.println("La resta es " + num1-num2);
+                System.out.println("La resta es " + (num1-num2));
                 break;
             case '*':
+                System.out.println("La multiplicacion es " + num1*num2);
                 break;
             case '/':
+                System.out.println("La division es " + num1/num2);
                 break;
             default:
                 System.out.println("ERROR");
