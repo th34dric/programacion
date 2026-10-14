@@ -1,3 +1,5 @@
+package RelacionProblemas2;
+
 import java.util.Scanner;
 
 public class Ejercicio2_7 {

@@ -1,3 +1,5 @@
+package RelacionProblemas2;
+
 public class Ejercicio2_1 {
     static void main(String[] args) {
         for (int i = 0; i < 101; i++) {
