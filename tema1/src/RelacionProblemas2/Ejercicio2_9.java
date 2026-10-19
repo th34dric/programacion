@@ -7,7 +7,7 @@ public class Ejercicio2_9 {
         Scanner sc = new Scanner(System.in);
 
         int num;
-        int divisor;
+        int resto;
         int sumatorio = 0;
         String cadenaDivisores = "";
 
@@ -17,23 +17,25 @@ public class Ejercicio2_9 {
         } while (num < 0);
 
         for (int i = 1; i < num; i++) {
-            divisor=num%i;
+            resto=num%i;
 
-            if (divisor == 0) {
+            if (resto == 0) {
                 if (cadenaDivisores.isEmpty()){
-                    cadenaDivisores.concat(divisor+"");
+                    cadenaDivisores = cadenaDivisores.concat(i + "");
 
                 }
                 else{
-                    cadenaDivisores.concat(" + " + divisor);
+                    cadenaDivisores = cadenaDivisores.concat(" + " + i);
                 }
-                System.out.println(i);
                 sumatorio += i;
             }
         }
+        cadenaDivisores = cadenaDivisores.concat(" = " + sumatorio);
 
         if (sumatorio == num) {
-            System.out.println("El numero " + num + " es perfecto porque es igual que " + cadenaDivisores );
+            System.out.println("El numero " + num + " es perfecto porque es igual que " + cadenaDivisores);
+        } else {
+            System.out.println("El numero " + num + " no es perfecto porque " + cadenaDivisores);
         }
 
     }
