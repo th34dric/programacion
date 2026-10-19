@@ -14,14 +14,10 @@ public class Ejercicio2_10 {
             num = sc.nextInt();
         } while (num < 0);
 
-        if (num == 0) {
-            System.out.printf("Factorial (%d) = 0", num);
-        } else {
-            for (int i = num; i > 0; i--) {
-                factorial = factorial * i;
-            }
-
-            System.out.printf("Factorial (%d) = %d", num, factorial);
+        for (int i = num; i > 1; i--) {
+            factorial = factorial * i;
         }
+
+        System.out.printf("Factorial (%d) = %d", num, factorial);
     }
 }
