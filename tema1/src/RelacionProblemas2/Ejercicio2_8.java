@@ -8,14 +8,23 @@ public class Ejercicio2_8 {
 
         char seguir = 'S';
         int num;
+        int menor = Integer.MAX_VALUE;
 
         while (seguir == 'S') {
             System.out.println("Introduce un numero");
             num = sc.nextInt();
 
-            System.out.println("¿Desea introducir más números (S/N)");
-            sc.nextLine();
-            seguir = sc.nextLine().charAt(0);
+            if (menor > num) {
+                menor = num;
+            }
+
+            do {
+                System.out.println("¿Desea introducir más números (S/N)");
+                sc.nextLine();
+                seguir = sc.nextLine().charAt(0);
+            } while (seguir != 'S' && seguir != 'N');
         }
+
+        System.out.println("El numero menor es " + menor);
     }
 }
