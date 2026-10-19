@@ -21,7 +21,7 @@ public class Ejercicio2_8 {
             do {
                 System.out.println("¿Desea introducir más números (S/N)");
                 sc.nextLine();
-                seguir = sc.nextLine().charAt(0);
+                seguir = sc.nextLine().toUpperCase().charAt(0);
             } while (seguir != 'S' && seguir != 'N');
         }
 
