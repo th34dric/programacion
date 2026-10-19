@@ -17,14 +17,13 @@ public class Ejercicio2_9 {
         } while (num < 0);
 
         for (int i = 1; i < num; i++) {
-            resto=num%i;
+            resto = num % i;
 
             if (resto == 0) {
-                if (cadenaDivisores.isEmpty()){
+                if (cadenaDivisores.isEmpty()) {
                     cadenaDivisores = cadenaDivisores.concat(i + "");
 
-                }
-                else{
+                } else {
                     cadenaDivisores = cadenaDivisores.concat(" + " + i);
                 }
                 sumatorio += i;
