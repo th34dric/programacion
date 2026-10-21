@@ -42,7 +42,7 @@ public class Ejercicio4_4 {
         minTotal = (((seg + seg2) / 60) + min + min2) % 60;
         horaTotal = ((((seg + seg2) / 60) + min + min2) / 60) + hora + hora2 % 24;
 
-        if (horaTotal == 24) {
+        if (horaTotal >= 24) {
             horaTotal = 0;
             System.out.printf("La hora resultado es: %d:%d:%d (del sia siguiente)", horaTotal, minTotal, segTotal);
         } else {
