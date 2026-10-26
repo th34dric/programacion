@@ -2,49 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac681a0f-c1d5-46c2-8251-1723b383265f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/tema1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen/Examen.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EjemplosExtras/ArbolNavidad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EjemplosExtras/Cuadrado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas1/Ejercicio1_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas2/Ejercicio2_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas3/Ejercicio3_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas3/Ejercicio3_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas3/Ejercicio3_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas3/Ejercicio3_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas4/Ejercicio4_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas4/Ejercicio4_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas4/Ejercicio4_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelacionProblemas4/Ejercicio4_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tema1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tema1Extras/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tema1Extras/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tema1Extras/.idea/misc.xml" beforeDir="false" />
@@ -64,41 +27,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "th34dric"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;th34dric&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/th34dric/programacion.git",
-    "accountId": "6b5efb0a-9671-40a5-bc34-ebfde88b3e58"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/th34dric/programacion.git&quot;,
+    &quot;accountId&quot;: &quot;6b5efb0a-9671-40a5-bc34-ebfde88b3e58&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3LETrgAMozYVACEoIag4zN5awzy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
