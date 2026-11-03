@@ -17,7 +17,7 @@ public class Ejercicio3 {
         System.out.print("Introduce el numero de elementos del array: ");
         int numElementos = Integer.parseInt(sc.nextLine());
 
-        int miArray[] = new int[numElementos];
+        int[] miArray = new int[numElementos];
 
         for (int i = 0; i < miArray.length; i++) {
             System.out.printf("Introduce el numero %d: ", (i+1));
@@ -26,16 +26,20 @@ public class Ejercicio3 {
 
         for (int i = 0; i < miArray.length; i++) {
             suma += miArray[i];
-            if (miArray[i] < menor) {
-                menor = miArray[i];
-            } else if (miArray[i] > mayor) {
-                mayor = miArray[i];
-            } else if (miArray[i] == menor) {
+            if (miArray[i] == menor) {
                 repeticionMenor = true;
                 contadorMenor++;
-            } else if (miArray[i] == mayor) {
+            } else if (miArray[i] < menor) {
+                menor = miArray[i];
+                contadorMenor = 1;
+            }
+
+            if (miArray[i] == mayor) {
                 repeticionMayor = true;
                 contadorMayor++;
+            } else if (miArray[i] > mayor) {
+                mayor = miArray[i];
+                contadorMayor = 1;
             }
         }
 
