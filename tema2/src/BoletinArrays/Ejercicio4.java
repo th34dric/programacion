@@ -1,27 +1,25 @@
 package BoletinArrays;
 
-import java.util.Scanner;
-
 public class Ejercicio4 {
-    public static void nose(int unArray[]) {
-
-    }
+    static final int NUMEROS_TOTALES = 6000;
 
     static void main(String[] args) {
+        double media = 0;
+        int numero = 0;
+        int[] arrayContador = new int[10];
+        double porcentajeTotal = 0;
 
-        int NUMEROS_TOTALES = 6000;
-        int media = 0;
-        int ultimoDigito;
-
-        int[] miArray = new int[NUMEROS_TOTALES];
-
-        for (int i = 0; i < miArray.length; i++) {
-            miArray[i] = (int)(Math.random() * 100);
-            media += miArray[i];
+        for (int i = 0; i < NUMEROS_TOTALES; i++) {
+            numero = (int) (Math.random() * 100);
+            media += numero;
+            arrayContador[numero % 10]++;
         }
 
-        media = media/NUMEROS_TOTALES;
-
-        System.out.println("La media de los numeros es " + media);
+        System.out.println("La media de los numeros es " + (media / NUMEROS_TOTALES));
+        for (int i = 0; i < 10; i++) {
+            System.out.printf("El nº%d se ha repetido %d veces. Esto equivale a un %.2f%%%n", i, arrayContador[i], ((arrayContador[i]/(double)NUMEROS_TOTALES)*100));
+            porcentajeTotal += ((arrayContador[i]/(double)NUMEROS_TOTALES)*100);
+        }
+        System.out.printf("La suma de todos los porcentajes es equivalente al %.2f%%. El %% medio para cada contador es de %.2f%%", porcentajeTotal, (porcentajeTotal/10));
     }
 }
