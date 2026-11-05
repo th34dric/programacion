@@ -60,4 +60,12 @@ public class MiEntradaSalida {
         } while (caracterLeido != 'S' && caracterLeido != 'N');
         return caracterLeido;
     }
+
+    public static int[] crearArrayRandom (int tamano, int tope) {
+        int[] array = new int[tamano];
+        for (int i = 0; i < tamano; i++) {
+            array[i] = (int)(Math.random() * tope);
+        }
+        return array;
+    }
 }
