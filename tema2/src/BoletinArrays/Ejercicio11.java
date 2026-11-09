@@ -31,15 +31,15 @@ public class Ejercicio11 {
         return arrayFinal;
     }
 
-    static void main(String[] args) {
-        int[] array1 = {1,2,3,4,5,6,7,8,7,0};
-        int[] array2 = {4,2,4,-2,7,4,4,67,45};
-        int[] arrayFinal;
-
-        arrayFinal = elementosComunes(array1, array2);
-
-        for (int i = 0; i < arrayFinal.length; i++) {
-            System.out.println(arrayFinal[i]);
-        }
-    }
+//    static void main(String[] args) {
+//        int[] array1 = {1,2,3,4,5,6,7,8,7,0};
+//        int[] array2 = {4,2,4,-2,7,4,4,67,45};
+//        int[] arrayFinal;
+//
+//        arrayFinal = elementosComunes(array1, array2);
+//
+//        for (int i = 0; i < arrayFinal.length; i++) {
+//            System.out.println(arrayFinal[i]);
+//        }
+//    }
 }
