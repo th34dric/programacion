@@ -33,7 +33,7 @@ public class Ejercicio11 {
 
 //    static void main(String[] args) {
 //        int[] array1 = {1,2,3,4,5,6,7,8,7,0};
-//        int[] array2 = {4,2,4,-2,7,4,4,67,45};
+//        int[] array2 = {4,2,4,-2,7,0,4,67,45};
 //        int[] arrayFinal;
 //
 //        arrayFinal = elementosComunes(array1, array2);
