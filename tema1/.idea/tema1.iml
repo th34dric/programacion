@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/tema1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/tema1/src/EjemplosExtras" isTestSource="false" packagePrefix="RelacionProblemas4" />
       <sourceFolder url="file://$MODULE_DIR$/src/tema1Extras/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
