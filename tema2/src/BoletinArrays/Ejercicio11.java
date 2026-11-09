@@ -8,16 +8,14 @@ public class Ejercicio11 {
         for (int i = 0; i < array1.length; i++) {
             for (int j = 0; j < array2.length; j++) {
                 if (array1[i] == array2[j]) {
-                    for (int k = 0; k < array1.length; k++) {
-                        repe = false;
-                        for (int l = 0; l < posicion; l++) {
-                            if (arrayAux[l] == array1[i]) {
-                                repe = true;
-                            }
+                    repe = false;
+                    for (int k = 0; k < posicion; k++) {
+                        if (arrayAux[k] == array1[i]) {
+                            repe = true;
                         }
-                        if (!repe) {
-                            arrayAux[posicion++] = array1[i];
-                        }
+                    }
+                    if (!repe) {
+                        arrayAux[posicion++] = array1[i];
                     }
                 }
             }
@@ -31,15 +29,15 @@ public class Ejercicio11 {
         return arrayFinal;
     }
 
-//    static void main(String[] args) {
-//        int[] array1 = {1,2,3,4,5,6,7,8,7,0};
-//        int[] array2 = {4,2,4,-2,7,0,4,67,45};
-//        int[] arrayFinal;
-//
-//        arrayFinal = elementosComunes(array1, array2);
-//
-//        for (int i = 0; i < arrayFinal.length; i++) {
-//            System.out.println(arrayFinal[i]);
-//        }
-//    }
+    static void main(String[] args) {
+        int[] array1 = {1, 2, 3, 4, 5, 6, 7, 8, 7, 0};
+        int[] array2 = {4, 2, 4, -2, 7, 0, 4, 67, 45};
+        int[] arrayFinal;
+
+        arrayFinal = elementosComunes(array1, array2);
+
+        for (int i = 0; i < arrayFinal.length; i++) {
+            System.out.println(arrayFinal[i]);
+        }
+    }
 }
