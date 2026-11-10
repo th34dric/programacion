@@ -5,46 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac681a0f-c1d5-46c2-8251-1723b383265f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/tema1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tema1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/Ejercicio2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/EjemplosExtras/ArbolNavidad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/EjemplosExtras/Cuadrado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas1/Ejercicio1_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas2/Ejercicio2_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas3/Ejercicio3_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas3/Ejercicio3_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas3/Ejercicio3_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas3/Ejercicio3_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas4/Ejercicio4_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas4/Ejercicio4_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas4/Ejercicio4_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/src/RelacionProblemas4/Ejercicio4_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1Extras/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1Extras/src/BucleDoWhile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1Extras/src/BucleFor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1Extras/src/BucleWhile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1Extras/src/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tema2/src/BoletinArrays/Ejercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tema2/src/BoletinArrays/Ejercicio10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,27 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Desarrollo\Programacion\tema1" />

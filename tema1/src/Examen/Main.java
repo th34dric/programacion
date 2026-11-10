@@ -6,7 +6,7 @@ public class Main {
 
         String nombrePiloto;
         int numeroVueltas = 0;
-        Double tiempoObjetivo = 0.0;
+        double tiempoObjetivo = 0.0;
         double tiempoPorVuelta = 0.0;
         double tiempoTotal = 0.0;
         double tiempoMedio = 0.0;
@@ -51,7 +51,7 @@ public class Main {
             if (tiempoPorVuelta < tiempoObjetivo) {
                 System.out.println("Objetivo mejorado");
                 vueltasMejoradas++;
-            } else if (tiempoObjetivo.equals(tiempoPorVuelta)) {
+            } else if (tiempoObjetivo == tiempoPorVuelta) {
                 System.out.println("Objetivo igualado");
             } else {
                 System.out.println("Por encima del objetivo");
