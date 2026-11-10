@@ -28,7 +28,7 @@ public class Ejercicio13 {
         int contador = 0;
         int opcion;
 
-        opcion = MiEntradaSalida.leerEnteroEnRango("Elige una opción (1. Apilar / 2.Desapilar / 3.Salir)", 1, 3);
+        opcion = MiEntradaSalida.leerEnteroEnRango("Elige una opción (1. Apilar / 2. Desapilar / 3. Salir)", 1, 3);
         while (opcion == 1 || opcion == 2) {
             switch (opcion) {
                 case 1:
