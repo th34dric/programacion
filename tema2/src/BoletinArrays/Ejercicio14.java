@@ -17,7 +17,10 @@ public class Ejercicio14 {
             System.out.println("No hay elementos en la cola");
         } else {
             System.out.println("Desencolar:");
-            array[contador--] = 0;
+            for (int i = 0; i < contador-1; i++) {
+                array[i] = array[i+1];
+            }
+            contador--;
         }
 
         return contador;
@@ -33,7 +36,7 @@ public class Ejercicio14 {
             switch (opcion) {
                 case 1:
                     contador = encolar(cola, contador);
-                    System.out.printf("Pila:");
+                    System.out.printf("Cola:");
                     for (int i = 0; i < contador; i++) {
                         System.out.print(" " + cola[i] + " ");
                     }
@@ -41,7 +44,7 @@ public class Ejercicio14 {
                     break;
                 case 2:
                     contador = desapilar(cola, contador);
-                    System.out.printf("Pila:");
+                    System.out.printf("Cola:");
                     for (int i = 0; i < contador; i++) {
                         System.out.print(" " + cola[i] + " ");
                     }
