@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac681a0f-c1d5-46c2-8251-1723b383265f" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/tema1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tema1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Examen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tema2/src/BoletinArrays/Ejercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tema2/src/BoletinArrays/Ejercicio10.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tema1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tema1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> e1b6b28d040adb0f566aabb3910956ddb5d6c15c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -30,6 +43,65 @@
     &quot;accountId&quot;: &quot;6b5efb0a-9671-40a5-bc34-ebfde88b3e58&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000000053" />
+      <entry key="MS500" value="1.0014022895611556" />
+      <entry key="S2" value="1.1935127230901528" />
+      <entry key="S5" value="1.5199587760001683" />
+      <entry key="S10" value="1.7740703108523914" />
+      <entry key="S30" value="2.514390651951152" />
+      <entry key="S60" value="3.256765732237632" />
+      <entry key="M2" value="4.247183242112492" />
+      <entry key="M5" value="5.748379022445103" />
+      <entry key="M10" value="6.668622721120355" />
+      <entry key="M15" value="7.057345179843428" />
+      <entry key="M30" value="7.498291480169961" />
+      <entry key="H1" value="7.740961009820784" />
+      <entry key="H2" value="7.8683552964210906" />
+      <entry key="H4" value="7.9336361125313" />
+      <entry key="D1" value="7.9888632531494945" />
+      <entry key="W1" value="7.998407160851218" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9138314502294054" />
+      <entry key="MS500" value="0.9835092234378471" />
+      <entry key="S2" value="1.187880623975377" />
+      <entry key="S5" value="1.5169335088554632" />
+      <entry key="S10" value="1.7722491935418045" />
+      <entry key="S30" value="2.5134749611766654" />
+      <entry key="S60" value="3.2561483371359854" />
+      <entry key="M2" value="4.246732366110968" />
+      <entry key="M5" value="5.748071739960564" />
+      <entry key="M10" value="6.668422134730641" />
+      <entry key="M15" value="7.057197423915463" />
+      <entry key="M30" value="7.498209410465239" />
+      <entry key="H1" value="7.740917674133561" />
+      <entry key="H2" value="7.868333018574072" />
+      <entry key="H4" value="7.933624816542485" />
+      <entry key="D1" value="7.9888613482722315" />
+      <entry key="W1" value="7.998406888176654" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -39,6 +111,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -58,6 +131,32 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ejercicio3_3.executor": "Run",
+    "Application.Ejercicio3_4.executor": "Run",
+    "Application.Ejercicio3_5.executor": "Run",
+    "Application.Ejercicio3_6.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Desarrollo/Programacion/tema1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+>>>>>>> e1b6b28d040adb0f566aabb3910956ddb5d6c15c
   }
 }</component>
   <component name="RecentsManager">
@@ -70,8 +169,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
       </set>
     </attachedChunks>
   </component>
