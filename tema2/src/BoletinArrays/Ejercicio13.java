@@ -48,7 +48,7 @@ public class Ejercicio13 {
                     System.out.println();
                     break;
             }
-            opcion = MiEntradaSalida.leerEnteroEnRango("Elige una opción (1. Apilar / 2.Desapilar / 3.Salir)", 1, 3);
+            opcion = MiEntradaSalida.leerEnteroEnRango("Elige una opción (1. Apilar / 2. Desapilar / 3. Salir)", 1, 3);
         }
     }
 }
