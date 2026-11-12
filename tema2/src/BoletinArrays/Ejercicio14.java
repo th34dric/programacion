@@ -12,7 +12,7 @@ public class Ejercicio14 {
         }
     }
 
-    public static void desapilar(int[] array) {
+    public static void desencolar(int[] array) {
         if (contador == 0) {
             System.out.println("No hay elementos en la cola");
         } else {
@@ -40,7 +40,7 @@ public class Ejercicio14 {
                     System.out.println();
                     break;
                 case 2:
-                    desapilar(cola);
+                    desencolar(cola);
                     System.out.printf("Cola:");
                     for (int i = 0; i < contador; i++) {
                         System.out.print(" " + cola[i] + " ");

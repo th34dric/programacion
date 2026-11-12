@@ -10,7 +10,7 @@ public class Ejercicio15 {
 
         for (int i = 2; i < num/i; i++) {
             if (array[i]) {
-                for (int j = i; j < num; j+=i) {
+                for (int j = i+1; j < num; j+=i) {
                     array[j] = false;
                 }
             }
