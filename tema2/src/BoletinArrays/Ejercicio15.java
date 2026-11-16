@@ -2,16 +2,12 @@ package BoletinArrays;
 
 public class Ejercicio15 {
     public static boolean[] cribaEratostenes(int num) {
-        boolean[] array = new boolean[num+1];
+        boolean[] array = new boolean[num];
 
-        for (int i = 2; i < num; i++) {
-            array[i] = true;
-        }
-
-        for (int i = 2; i < num/i; i++) {
-            if (array[i]) {
-                for (int j = i+1; j < num; j+=i) {
-                    array[j] = false;
+        for (int i = 2; i < num/2; i++) {
+            if (!array[i]) {
+                for (int j = i*2; j < num; j+=i) {
+                    array[j] = true;
                 }
             }
         }
@@ -24,7 +20,7 @@ public class Ejercicio15 {
         boolean[] array = cribaEratostenes(num);
 
         for (int i = 2; i < array.length; i++) {
-            if (array[i]) {
+            if (!array[i]) {
                 System.out.print(i + " ");
             }
         }
