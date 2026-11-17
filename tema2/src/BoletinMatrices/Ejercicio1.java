@@ -2,15 +2,17 @@ package BoletinMatrices;
 
 public class Ejercicio1 {
     public static boolean hayNegativo(int[][] matriz) {
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
+        boolean neg = false;
+
+        for (int i = 0; i < matriz.length && !neg; i++) {
+            for (int j = 0; j < matriz[i].length && !neg; j++) {
                 if (matriz[i][j] < 0) {
-                    return true;
+                    neg = true;
                 }
             }
         }
         
-        return false;
+        return neg;
     }
 
     static void main(String[] args) {
