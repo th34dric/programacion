@@ -21,9 +21,6 @@ public class Ejercicio8 {
 
         int[][] matrizSuma = sumaMatrices(matriz1, matriz2);
         imprimirMatriz(matrizSuma);
-
-
-
     }
 
     public static int[][] introducirMatriz(int filas, int columnas) {
