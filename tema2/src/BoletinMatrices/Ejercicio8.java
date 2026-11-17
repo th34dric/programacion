@@ -4,24 +4,25 @@ import BoletinArrays.MiEntradaSalida;
 
 public class Ejercicio8 {
     static void main(String[] args) {
-        int FILAS1 = MiEntradaSalida.leerEntero("Indica las filas de la primera matriz");
-        int COLUMNAS1 = MiEntradaSalida.leerEntero("Indica las columnas de la primera matriz");
-        int FILAS2 = MiEntradaSalida.leerEntero("Indica las filas de la segunda matriz");
-        int COLUMNAS2 = MiEntradaSalida.leerEntero("Indica las columnas de la segunda matriz");
+        int FILAS1, COLUMNAS1, FILAS2, COLUMNAS2;
 
-        while (FILAS1 != FILAS2 || COLUMNAS1 != COLUMNAS2) {
-            System.out.println("Las matrices no son iguales");
+        do {
             FILAS1 = MiEntradaSalida.leerEntero("Indica las filas de la primera matriz");
             COLUMNAS1 = MiEntradaSalida.leerEntero("Indica las columnas de la primera matriz");
             FILAS2 = MiEntradaSalida.leerEntero("Indica las filas de la segunda matriz");
             COLUMNAS2 = MiEntradaSalida.leerEntero("Indica las columnas de la segunda matriz");
-        }
+            if (FILAS1 != FILAS2 || COLUMNAS1 != COLUMNAS2) {
+                System.out.println("Las matrices no son iguales");
+            }
+        } while (FILAS1 != FILAS2 || COLUMNAS1 != COLUMNAS2);
 
         int[][] matriz1 = introducirMatriz(FILAS1, COLUMNAS1);;
         int[][] matriz2 = introducirMatriz(FILAS2, COLUMNAS2);;
 
         int[][] matrizSuma = sumaMatrices(matriz1, matriz2);
         imprimirMatriz(matrizSuma);
+
+
 
     }
 
@@ -32,6 +33,7 @@ public class Ejercicio8 {
             for (int j = 0; j < matriz[i].length; j++) {
                 matriz[i][j] = MiEntradaSalida.leerEntero("Introduce el espacio " + i + j + " de la matriz: ");
             }
+            System.out.println();
         }
 
         return matriz;
