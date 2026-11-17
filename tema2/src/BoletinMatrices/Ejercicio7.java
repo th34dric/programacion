@@ -8,10 +8,16 @@ public class Ejercicio7 {
     }
 
     public static boolean matricesIguales(int[][] matriz1, int[][] matriz2) {
-        for (int i = 0; i < matriz1.length; i++) {
-            for (int j = 0; j < matriz1[i].length; j++) {
-                if (matriz1[i][j] != matriz2[i][j]) {
-                    return false;
+        if (matriz1.length == matriz2.length) {
+            for (int i = 0; i < matriz1.length; i++) {
+                if (matriz1[i].length == matriz2[i].length) {
+                    for (int k = 0; k < matriz1.length; k++) {
+                        for (int l = 0; l < matriz1[k].length; l++) {
+                            if (matriz1[k][l] != matriz2[k][l]) {
+                                return false;
+                            }
+                        }
+                    }
                 }
             }
         }
