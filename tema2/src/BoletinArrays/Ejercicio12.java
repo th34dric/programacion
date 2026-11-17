@@ -1,5 +1,7 @@
 package BoletinArrays;
 
+import MiEntradaSalida.MiEntradaSalida;
+
 public class Ejercicio12 {
     public static int[] metodoBurbuja(int[] unArray) {
         int aux = 0;

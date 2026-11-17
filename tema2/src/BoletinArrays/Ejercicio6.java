@@ -1,5 +1,7 @@
 package BoletinArrays;
 
+import MiEntradaSalida.MiEntradaSalida;
+
 public class Ejercicio6 {
     public static int buscarElemento(int[] unArray, int elemento) {
         for (int i = 0; i < unArray.length; i++) {

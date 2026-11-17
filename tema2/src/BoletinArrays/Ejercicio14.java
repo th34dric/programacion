@@ -1,5 +1,7 @@
 package BoletinArrays;
 
+import MiEntradaSalida.MiEntradaSalida;
+
 public class Ejercicio14 {
     static int contador = 0;
     static int primerElemento = 0;

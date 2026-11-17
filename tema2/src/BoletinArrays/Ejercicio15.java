@@ -1,5 +1,7 @@
 package BoletinArrays;
 
+import MiEntradaSalida.MiEntradaSalida;
+
 public class Ejercicio15 {
     public static boolean[] cribaEratostenes(int num) {
         boolean[] array = new boolean[num];

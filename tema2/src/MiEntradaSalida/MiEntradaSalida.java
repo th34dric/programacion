@@ -1,4 +1,4 @@
-package BoletinArrays;
+package MiEntradaSalida;
 
 import java.util.Scanner;
 

@@ -9,15 +9,19 @@ public class Ejercicio7 {
 
     public static boolean matricesIguales(int[][] matriz1, int[][] matriz2) {
         if (matriz1.length == matriz2.length) {
-            for (int i = 0; i < matriz1.length; i++) {
-                if (matriz1[i].length == matriz2[i].length) {
-                    for (int k = 0; k < matriz1.length; k++) {
-                        for (int l = 0; l < matriz1[k].length; l++) {
-                            if (matriz1[k][l] != matriz2[k][l]) {
-                                return false;
-                            }
-                        }
-                    }
+            return false;
+        }
+
+        for (int i = 0; i < matriz1.length; i++) {
+            if (matriz1[i].length == matriz2[i].length) {
+                return false;
+            }
+        }
+
+        for (int k = 0; k < matriz1.length; k++) {
+            for (int l = 0; l < matriz1[k].length; l++) {
+                if (matriz1[k][l] != matriz2[k][l]) {
+                    return false;
                 }
             }
         }

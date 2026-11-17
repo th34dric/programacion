@@ -1,6 +1,6 @@
 package BoletinMatrices;
 
-import BoletinArrays.MiEntradaSalida;
+import MiEntradaSalida.MiEntradaSalida;
 
 public class Ejercicio8 {
     static void main(String[] args) {

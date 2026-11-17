@@ -1,5 +1,7 @@
 package BoletinArrays;
 
+import MiEntradaSalida.MiEntradaSalida;
+
 public class Ejercicio10 {
     static void main(String[] args) {
         int[] miArray = new int[MiEntradaSalida.leerEntero("Introduce el tamaño del array")];

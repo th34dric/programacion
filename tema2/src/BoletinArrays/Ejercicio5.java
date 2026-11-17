@@ -1,5 +1,7 @@
 package BoletinArrays;
 
+import MiEntradaSalida.MiEntradaSalida;
+
 public class Ejercicio5 {
     public static int[] numerosAleatorios (int tamano) {
         int[] array = new int[tamano];
