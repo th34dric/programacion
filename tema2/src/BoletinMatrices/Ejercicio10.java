@@ -9,12 +9,12 @@ public class Ejercicio10 {
     public static boolean matrizSimetricaY(int[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length/2; j++) {
-                if (matriz[i][j] == matriz[i][matriz[i].length-1-j]) {
-                    return true;
+                if (matriz[i][j] != matriz[i][matriz[i].length-1-j]) {
+                    return false;
                 }
             }
         }
 
-        return false;
+        return true;
     }
 }
