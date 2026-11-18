@@ -36,7 +36,7 @@ public class Ejercicio13 {
     public static void imprimirMatriz(int[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                System.out.print(matriz[i][j] + " ");
+                System.out.print(matriz[matriz.length-1-i][matriz[i].length-1-j] + " ");
             }
             System.out.println();
         }
@@ -47,13 +47,9 @@ public class Ejercicio13 {
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                if (i == j) {
-                    break;
-                }
-
                 aux = matriz[i][j];
-                matriz[i][j] = matriz[j][i];
-                matriz[j][i] = aux;
+                matriz[i][j] = matriz[matriz.length-1-i][matriz[i].length-1-j];
+                matriz[matriz.length-1-i][matriz[i].length-1-j] = aux;
             }
         }
     }
