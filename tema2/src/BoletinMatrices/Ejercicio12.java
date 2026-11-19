@@ -43,7 +43,7 @@ public class Ejercicio12 {
     }
 
     public static int[][] matrizDiagonal(int[][] matriz) {
-        int[][] matrizCambiada = new int[matriz[0].length][matriz.length];
+        int[][] matrizCambiada = new int[matriz.length][matriz[0].length];
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
