@@ -16,8 +16,8 @@ public class Ejercicio12 {
 
         int[][] matriz = introducirMatriz(FILAS, COLUMNAS);
 
-        matrizDiagonal(matriz);
-        imprimirMatriz(matriz);
+        int[][] matrizCambiada = matrizDiagonal(matriz);
+        imprimirMatriz(matrizCambiada);
     }
 
     public static int[][] introducirMatriz(int filas, int columnas) {
@@ -42,15 +42,15 @@ public class Ejercicio12 {
         }
     }
 
-    public static void matrizDiagonal(int[][] matriz) {
-        int aux = 0;
+    public static int[][] matrizDiagonal(int[][] matriz) {
+        int[][] matrizCambiada = new int[matriz[0].length][matriz.length];
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                aux = matriz[i][j];
-                matriz[i][j] = matriz[j][i];
-                matriz[j][i] = aux;
+                matrizCambiada[j][i] = matriz[i][j];
             }
         }
+
+        return matrizCambiada;
     }
 }
