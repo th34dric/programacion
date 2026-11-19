@@ -16,10 +16,10 @@ public class Ejercicio15 {
         } while (i > matriz.length || j > matriz[0].length);
 
 
-        System.out.println("El numero en esa coordenada es el " + darValorCoords(matriz, i, j));
+        System.out.println("El numero en esa coordenada es el " + darNumeroCasilla(matriz, i, j));
     }
 
-    public static int darValorCoords(int[][] matriz, int i, int j) {
-        return matriz[i][j];
+    public static int darNumeroCasilla(int[][] matriz, int i, int j) {
+        return i * matriz[0].length + j + 1;
     }
 }
