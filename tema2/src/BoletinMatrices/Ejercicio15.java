@@ -2,8 +2,6 @@ package BoletinMatrices;
 
 import MiEntradaSalida.MiEntradaSalida;
 
-import java.util.Scanner;
-
 public class Ejercicio15 {
     static void main(String[] args) {
         int[][] matriz = {{1,2,3,4,5,6},{1,2,3,4,5,6},{1,2,3,4,5,6},{1,2,3,4,5,6},{1,2,3,4,5,6}};
