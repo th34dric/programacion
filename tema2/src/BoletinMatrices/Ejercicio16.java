@@ -26,24 +26,53 @@ public class Ejercicio16 {
 
     public static int[][] sacarColindantesPares(int[][] matriz) {
         int contador = 0;
-        int k = 0;
-        int l = 0;
         int[][] matrizContador = new int[matriz.length][matriz[0].length];
+        boolean primeraLinea;
+        boolean primeraColumna;
+        boolean ultimaLinea;
+        boolean ultimaColumna;
 
         for (int i = 0; i < matriz.length; i++) {
+            if (i == 0) {
+                primeraLinea = true;
+            } else {
+                primeraLinea = false;
+            }
+
+            if (i == matriz.length-1) {
+                ultimaLinea = true;
+            } else {
+                ultimaLinea = false;
+            }
+
             for (int j = 0; j < matriz[i].length; j++) {
-                for (; k <= i+1; k++) {
-                    if (j == 0) {
-                        k = i;
-                    } else {
-                        k = i-1;
-                    }
-                    for (; l <= j+1; l++) {
-                        if (i == 0) {
-                            l = j;
-                        } else {
-                            l = j-1;
+                if (j == 0) {
+                    primeraColumna = true;
+                } else {
+                    primeraColumna = false;
+                }
+
+                if (j == matriz[i].length-1) {
+                    ultimaColumna = true;
+                } else {
+                    ultimaColumna = false;
+                }
+
+                for (int k = i-1; k < i+2; k++) {
+                    for (int l = j-1; l < j+2; l++) {
+                        if (primeraColumna) {
+                            k = i;
                         }
+                        if (primeraLinea) {
+                            l = j;
+                        }
+                        if (ultimaColumna) {
+                            break;
+                        }
+                        if (ultimaLinea) {
+                            break;
+                        }
+
                         if (matriz[k][l] % 2 == 0) {
                             contador++;
                         }
@@ -51,6 +80,7 @@ public class Ejercicio16 {
                 }
 
                 matrizContador[i][j] = contador;
+                contador = 0;
             }
         }
 
