@@ -29,7 +29,7 @@ public class JardinFloreciente {
                 }
 
                 if (jardin[i][j] == 1) {
-                    if (hayMalaHierva(jardin, i, j)) {
+                    if (hayMalaHierba(jardin, i, j)) {
                         if (hayGusano(jardin, i, j)) {
                             if (hayAgua(jardin, i, j)) {
                                 if (hayAbeja(jardin, i, j)) {
@@ -107,19 +107,19 @@ public class JardinFloreciente {
         return hayGusano;
     }
 
-    public static boolean hayMalaHierva(int[][] jardin, int i, int j) {
-        boolean hayMalaHierva = false;
+    public static boolean hayMalaHierba(int[][] jardin, int i, int j) {
+        boolean hayMalaHierba = false;
 
         for (int k = i - 1; k < i + 2; k++) {
             for (int l = j - 1; l < j + 2; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
                     if (jardin[k][l] == 3) {
-                        hayMalaHierva = true;
+                        hayMalaHierba = true;
                     }
                 }
             }
         }
 
-        return hayMalaHierva;
+        return hayMalaHierba;
     }
 }
