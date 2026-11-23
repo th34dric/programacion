@@ -57,14 +57,13 @@ public class JardinFloreciente {
         }
 
 
-
     }
 
     public static boolean hayAgua(int[][] jardin, int i, int j) {
         boolean hayAgua = false;
 
-        for (int k = i-1; k < i+2; k++) {
-            for (int l = j-1; l < j+2; l++) {
+        for (int k = i - 1; k < i + 2; k++) {
+            for (int l = j - 1; l < j + 2; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
                     if (jardin[k][l] == 2) {
                         hayAgua = true;
@@ -79,8 +78,8 @@ public class JardinFloreciente {
     public static boolean hayAbeja(int[][] jardin, int i, int j) {
         boolean hayAbeja = false;
 
-        for (int k = i-3; k < i+4; k++) {
-            for (int l = j-3; l < j+4; l++) {
+        for (int k = i - 3; k < i + 4; k++) {
+            for (int l = j - 3; l < j + 4; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
                     if (jardin[k][l] == 5) {
                         hayAbeja = true;
@@ -95,8 +94,8 @@ public class JardinFloreciente {
     public static boolean hayGusano(int[][] jardin, int i, int j) {
         boolean hayGusano = false;
 
-        for (int k = i-1; k < i+2; k++) {
-            for (int l = j-1; l < j+2; l++) {
+        for (int k = i - 1; k < i + 2; k++) {
+            for (int l = j - 1; l < j + 2; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
                     if (jardin[k][l] == 4) {
                         hayGusano = true;
@@ -111,8 +110,8 @@ public class JardinFloreciente {
     public static boolean hayMalaHierva(int[][] jardin, int i, int j) {
         boolean hayMalaHierva = false;
 
-        for (int k = i-1; k < i+2; k++) {
-            for (int l = j-1; l < j+2; l++) {
+        for (int k = i - 1; k < i + 2; k++) {
+            for (int l = j - 1; l < j + 2; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
                     if (jardin[k][l] == 3) {
                         hayMalaHierva = true;
