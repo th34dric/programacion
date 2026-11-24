@@ -1,6 +1,14 @@
 package EjerciciosExtra;
 
+import java.util.IllegalFormatCodePointException;
+
 public class JardinFloreciente {
+    static final int FLOR = 1;
+    static final int AGUA = 2;
+    static final int ABEJA = 5;
+    static final int HIERBA = 3;
+    static final int GUSANO = 4;
+
     static void main(String[] args) {
         boolean florece = false;
 
@@ -24,28 +32,12 @@ public class JardinFloreciente {
 
         for (int i = 0; i < jardin.length; i++) {
             for (int j = 0; j < jardin[i].length; j++) {
-                if (jardin[i][j] == 0) {
+                if (jardin[i][j] != FLOR) {
                     continue;
                 }
 
-                if (jardin[i][j] == 1) {
-                    if (hayMalaHierba(jardin, i, j)) {
-                        if (hayGusano(jardin, i, j)) {
-                            if (hayAgua(jardin, i, j)) {
-                                if (hayAbeja(jardin, i, j)) {
-                                    florece = true;
-                                }
-                            }
-                        } else {
-                            continue;
-                        }
-                    } else {
-                        if (hayAgua(jardin, i, j)) {
-                            if (hayAbeja(jardin, i, j)) {
-                                florece = true;
-                            }
-                        }
-                    }
+                if (hayAbeja(jardin, i, j) && hayAgua(jardin, i, j) && (!hayMalaHierba(jardin, i, j) || hayGusano(jardin, i, j))) {
+                    florece = true;
                 }
 
                 if (florece) {
@@ -65,7 +57,7 @@ public class JardinFloreciente {
         for (int k = i - 1; k < i + 2; k++) {
             for (int l = j - 1; l < j + 2; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
-                    if (jardin[k][l] == 2) {
+                    if (jardin[k][l] == AGUA) {
                         hayAgua = true;
                     }
                 }
@@ -81,7 +73,7 @@ public class JardinFloreciente {
         for (int k = i - 3; k < i + 4; k++) {
             for (int l = j - 3; l < j + 4; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
-                    if (jardin[k][l] == 5) {
+                    if (jardin[k][l] == ABEJA) {
                         hayAbeja = true;
                     }
                 }
@@ -97,7 +89,7 @@ public class JardinFloreciente {
         for (int k = i - 1; k < i + 2; k++) {
             for (int l = j - 1; l < j + 2; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
-                    if (jardin[k][l] == 4) {
+                    if (jardin[k][l] == GUSANO) {
                         hayGusano = true;
                     }
                 }
@@ -113,7 +105,7 @@ public class JardinFloreciente {
         for (int k = i - 1; k < i + 2; k++) {
             for (int l = j - 1; l < j + 2; l++) {
                 if (k >= 0 && k < jardin.length && l >= 0 && l < jardin[0].length) {
-                    if (jardin[k][l] == 3) {
+                    if (jardin[k][l] == HIERBA) {
                         hayMalaHierba = true;
                     }
                 }
